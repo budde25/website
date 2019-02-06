@@ -8,9 +8,14 @@ class Fruit {
         this.y;
     }
 
-    generate() {
+    generate(length, tailx, taily) {
         this.x = Math.floor(Math.random() * (canvas.width / scl)) * scl;
-        this.y = Math.floor(Math.random() * (canvas.height /scl)) * scl;
+        this.y = Math.floor(Math.random() * (canvas.height / scl)) * scl;
+        for (var i = 0; i < length; i++) {
+            if (this.x == tailx[i] && this.y == taily[i]) {
+                this.generate();
+            }
+        }
         this.draw();
     }
 

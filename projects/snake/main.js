@@ -9,7 +9,7 @@ function clock() {
     snake.clear();
 
     if (snake.x === fruit.x && snake.y === fruit.y) {
-        fruit.generate();
+        fruit.generate(snake.tailLength, snake.tailx, snake.taily);
         snake.tailLength++;
     }
 
