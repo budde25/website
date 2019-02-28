@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  githubSnake(): void {
+    window.open('https://github.com/budde25', '_blank');
+  }
+
 }

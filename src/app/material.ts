@@ -6,7 +6,7 @@ import {
     MatDividerModule,
     MatIconModule,
     MatRippleModule,
-    MatToolbarModule
+    MatToolbarModule,
 } from '@angular/material';
 
 @NgModule({
