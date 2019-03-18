@@ -13,7 +13,18 @@ export class HomeComponent implements OnInit {
   }
 
   githubSnake(): void {
-    window.open('https://github.com/budde25', '_blank');
+    window.open('https://github.com/budde25/js-snake', '_blank');
   }
 
+  githubSmartDots(): void {
+    window.open('https://github.com/budde25/smart-dots', '_blank');
+  }
+
+  smartDots(): void {
+    window.open('https://budde25.github.io/smart-dots/');
+  }
+
+  snake(): void {
+    window.open('https://budde25.github.io/js-snake/');
+  }
 }

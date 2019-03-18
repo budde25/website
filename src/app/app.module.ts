@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 // Material imports
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
-import { RouterModule, Routes} from '@angular/router'
+import { RouterModule, Routes} from '@angular/router';
 
 
 @NgModule({
@@ -28,7 +28,7 @@ import { RouterModule, Routes} from '@angular/router'
     RouterModule.forRoot([
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
-      {path: 'about', component: AboutComponent}
+      {path: 'about', component: AboutComponent},
     ])
   ],
   providers: [],

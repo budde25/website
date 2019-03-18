@@ -1,5 +1,5 @@
 <div class="body">
-  <mat-card class="card">
+  <mat-card class="card" routerLink="/projects/snake" (click)="snake()">
     <mat-card-header>
       <mat-card-title>Snake</mat-card-title>
     </mat-card-header>
@@ -16,20 +16,19 @@
       </button>
     </mat-card-actions>
   </mat-card>
-  <mat-card class="card">
+  <mat-card class="card" routerLink="https://budde25.github.io/smart-dots/" (click)="smartDots()">
     <mat-card-header>
-      <mat-card-title>Snake</mat-card-title>
+      <mat-card-title>Smart Dots</mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <p>
-        This was the first Javascript program I made.
-        I made it to learn the Javascript programing language as well
-        as testing my skill at creating a game.
+        This is my seond Javascript program. 
+        It is a genetic algorithm that uses machine learning to improve in each generation.
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-icon-button class="title barButton" (click)="githubSnake()">
-          <img src="/assets/github-brands.svg">
+      <button mat-icon-button class="title barButton" (click)="githubSmartDots()">
+          <img src="assets/github-brands.svg">
       </button>
     </mat-card-actions>
   </mat-card>
