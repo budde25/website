@@ -13,10 +13,10 @@ export class AppComponent {
   constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon(
         'github',
-        sanitizer.bypassSecurityTrustResourceUrl('ethan/docs/assets/github.svg'));
+        sanitizer.bypassSecurityTrustResourceUrl('assets/github.svg'));
     iconRegistry.addSvgIcon(
           'linkedin',
-          sanitizer.bypassSecurityTrustResourceUrl('ethan/docs/assets/linkedin.svg')
+          sanitizer.bypassSecurityTrustResourceUrl('assets/linkedin.svg')
         );
     }
   title = 'Ethan Budd';

@@ -11,6 +11,7 @@ import { MaterialModule } from './material';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes} from '@angular/router';
+import { JsSnakeComponent } from './js-snake/js-snake.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { RouterModule, Routes} from '@angular/router';
     AppComponent,
     HomeComponent,
     AboutComponent,
+    JsSnakeComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { RouterModule, Routes} from '@angular/router';
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'about', component: AboutComponent},
+      {path: 'projects/snake', component: JsSnakeComponent},
     ])
   ],
   providers: [],
