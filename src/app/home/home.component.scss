@@ -3,9 +3,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .card {
   flex-basis: 60%;
+  max-width: 600px;
+  margin-bottom: 16px;
+  margin-right: 26px;
+  align-content: left;
 }
