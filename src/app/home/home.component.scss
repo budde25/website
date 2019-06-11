@@ -11,4 +11,17 @@
   margin-bottom: 16px;
   margin-right: 26px;
   align-content: left;
+  
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+.image {
+  margin-bottom: 0px;
+}
+
+.icon {
+  transform: scale(1.5);
 }

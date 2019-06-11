@@ -1,13 +1,25 @@
-<h1>Projects</h1>
+<h1 style="text-align: center">Projects</h1>
 <div class="body">
+    <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>Neural Network Library</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="assets/pics/nn.png" class="image">
+        <mat-card-actions class="actions">
+          <mat-icon class="icon" svgIcon="java"></mat-icon>
+          <button mat-icon-button class="title barButton" (click)="githubNN()">
+            <mat-icon class="icon" svgIcon="github-b"></mat-icon>
+          </button>
+        </mat-card-actions>
+      </mat-card>
   <mat-card class="card" (click)="snake()">
     <mat-card-header>
       <mat-card-title>Snake</mat-card-title>
     </mat-card-header>
-    <img mat-card-image src="assets/snake.png">
+    <img mat-card-image src="assets/pics/snake.png" class="image">
     <mat-card-actions>
       <button mat-icon-button class="title barButton" (click)="githubSnake()">
-          <img src="assets/github-brands.svg">
+          <mat-icon class="icon" svgIcon="github-b"></mat-icon>
       </button>
     </mat-card-actions>
   </mat-card>
@@ -15,10 +27,10 @@
     <mat-card-header>
       <mat-card-title>Smart Dots</mat-card-title>
     </mat-card-header>
-    <img mat-card-image src="assets/smartDots.png">
+    <img mat-card-image src="assets/pics/smartDots.png" class="image">
     <mat-card-actions>
       <button mat-icon-button class="title barButton" (click)="githubSmartDots()">
-          <img src="assets/github-brands.svg">
+          <mat-icon class="icon" svgIcon="github-b"></mat-icon>
       </button>
     </mat-card-actions>
   </mat-card>

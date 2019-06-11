@@ -20,6 +20,10 @@ export class HomeComponent implements OnInit {
     window.open('https://github.com/budde25/smart-dots', '_blank');
   }
 
+  githubNN(): void {
+    window.open('https://github.com/budde25/NeuralNetworkLibrary', '_blank');
+  }
+
   smartDots(): void {
     window.open('https://budde25.github.io/smart-dots/');
   }
