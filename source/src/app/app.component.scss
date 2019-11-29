@@ -6,23 +6,30 @@ h1 {
     font-size: 250%;
   }
 
-  .fill-space {
+.fill-space {
       flex: 1 1 auto;
   }
 
-  .title {
+.title {
       font-weight: bold;
       font-size: 20px;
   }
 
-  .barButton {
+.barButton {
     vertical-align: middle;
     align-content: center;
     align-items: center;
     margin-bottom: 0.15em;
  }
+
+
  
- body {
+router-outlet {
     margin:0;
+    background: rgb(125, 191, 212);
 }
+
+.mat-toolbar {
+    box-shadow: 5px 5px 10px rgba(0,0,0,.15);
+ }
  

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from '../models/project';
 
 @Component({
   selector: 'app-home',
@@ -7,28 +8,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  projects:Project[]
+
+  constructor() {
+    this.projects = [ {
+        title: 'JS Snake',
+        imageSrc: 'assets/pics/snake.png',
+        githubUri: 'https://github.com/budde25/js-snake',
+        uri: 'https://budde25.github.io/js-snake/',
+        icons: []
+      },
+      {
+        title: 'Smart Dots',
+        imageSrc: 'assets/pics/smartDots.png',
+        githubUri: 'https://budde25.github.io/smart-dots/',
+        uri: 'https://budde25.github.io/smart-dots/',
+        icons: []
+      },
+      {
+        title: 'Neural Network Library',
+        imageSrc: 'assets/pics/nn.png',
+        githubUri: 'https://github.com/budde25/NeuralNetworkLibrary',
+        icons: ['java']
+      }
+    ]
+   }
 
   ngOnInit() {
-  }
-
-  githubSnake(): void {
-    window.open('https://github.com/budde25/js-snake', '_blank');
-  }
-
-  githubSmartDots(): void {
-    window.open('https://github.com/budde25/smart-dots', '_blank');
-  }
-
-  githubNN(): void {
-    window.open('https://github.com/budde25/NeuralNetworkLibrary', '_blank');
-  }
-
-  smartDots(): void {
-    window.open('https://budde25.github.io/smart-dots/');
-  }
-
-  snake(): void {
-    window.open('https://budde25.github.io/js-snake/');
   }
 }

@@ -11,7 +11,8 @@ import { MaterialModule } from './material';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes} from '@angular/router';
-import { JsSnakeComponent } from './js-snake/js-snake.component';
+import { JsSnakeComponent } from './projects/js-snake/js-snake.component';
+import { ProjectItemComponent } from './componate/project-item/project-item.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { JsSnakeComponent } from './js-snake/js-snake.component';
     HomeComponent,
     AboutComponent,
     JsSnakeComponent,
+    ProjectItemComponent,
   ],
   imports: [
     BrowserModule,

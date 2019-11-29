@@ -1,27 +1,12 @@
-.body {
+h1 {
+  font-weight: bold;
+  font-size: 300%;
+  margin-bottom: 0%;
+}
+
+div {
   padding-top: 3%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.card {
-  flex-basis: 60%;
-  max-width: 600px;
-  margin-bottom: 16px;
-  margin-right: 26px;
-  align-content: left;
-  
-}
-
-.fill-space {
-  flex: 1 1 auto;
-}
-
-.image {
-  margin-bottom: 0px;
-}
-
-.icon {
-  transform: scale(1.5);
 }
