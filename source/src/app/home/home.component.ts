@@ -11,12 +11,22 @@ export class HomeComponent implements OnInit {
   projects:Project[]
 
   constructor() {
-    this.projects = [ {
-        title: 'JS Snake',
-        imageSrc: 'assets/pics/snake.png',
-        githubUri: 'https://github.com/budde25/js-snake',
-        uri: 'https://budde25.github.io/js-snake/',
-        icons: []
+    this.projects = [ 
+      {
+        title: 'Java Game Engine',
+        imageSrc: 'assets/pics/engine.png',
+        githubUri: 'https://github.com/budde25/JavaGameEngine'
+      },
+      {
+        title: 'Neural Numbers',
+        imageSrc: 'assets/pics/numbers.png',
+        githubUri: 'https://github.com/budde25/NeuralNumbers'
+      },
+      {
+        title: 'Neural Network Library',
+        imageSrc: 'assets/pics/nn.png',
+        githubUri: 'https://github.com/budde25/NeuralNetworkLibrary',
+        icons: ['java']
       },
       {
         title: 'Smart Dots',
@@ -26,10 +36,11 @@ export class HomeComponent implements OnInit {
         icons: []
       },
       {
-        title: 'Neural Network Library',
-        imageSrc: 'assets/pics/nn.png',
-        githubUri: 'https://github.com/budde25/NeuralNetworkLibrary',
-        icons: ['java']
+        title: 'JS Snake',
+        imageSrc: 'assets/pics/snake.png',
+        githubUri: 'https://github.com/budde25/js-snake',
+        uri: 'https://budde25.github.io/js-snake/',
+        icons: []
       }
     ]
    }
