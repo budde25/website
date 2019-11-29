@@ -15,17 +15,20 @@ export class HomeComponent implements OnInit {
       {
         title: 'Java Game Engine',
         imageSrc: 'assets/pics/engine.png',
-        githubUri: 'https://github.com/budde25/JavaGameEngine'
+        githubUri: 'https://github.com/budde25/JavaGameEngine',
+        uri: '/home',
       },
       {
         title: 'Neural Numbers',
         imageSrc: 'assets/pics/numbers.png',
-        githubUri: 'https://github.com/budde25/NeuralNumbers'
+        githubUri: 'https://github.com/budde25/NeuralNumbers',
+        uri: '/home',
       },
       {
         title: 'Neural Network Library',
         imageSrc: 'assets/pics/nn.png',
         githubUri: 'https://github.com/budde25/NeuralNetworkLibrary',
+        uri: '/home',
         icons: ['java']
       },
       {
