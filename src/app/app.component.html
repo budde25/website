@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <mat-toolbar color="primary">
+    <span>
+      <button mat-button class="title" routerLink="/home">
+        <a>Home</a>
+      </button>
+    </span>
+    <span>
+      <button mat-button class="title" routerLink="/about">
+        <a>About</a>
+      </button>
+    </span>
+    <span class="fill-space"></span>
+    <span>
+        <button mat-icon-button class="title barButton" (click)="linkedin()">
+          <mat-icon svgIcon="linkedin"></mat-icon>
+        </button>
+      <button mat-icon-button class="title barButton" (click)="github()">
+        <mat-icon svgIcon="github"></mat-icon>
+      </button>
+    </span>
+  </mat-toolbar>
+<router-outlet></router-outlet>
