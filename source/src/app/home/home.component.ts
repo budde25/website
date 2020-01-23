@@ -8,10 +8,17 @@ import { Project } from '../models/project';
 })
 export class HomeComponent implements OnInit {
 
-  projects:Project[]
+  projects: Project[];
 
   constructor() {
-    this.projects = [ 
+    this.projects = [
+      {
+        title: 'Party DJ - Spotify Queuing app',
+        imageSrc: 'assets/pics/partydj.png',
+        githubUri: 'https://github.com/budde25/PartyDJ',
+        uri: 'https://play.google.com/store/apps/details?id=dev.budde.spotify_queue',
+        icons: []
+      },
       {
         title: 'Java Game Engine',
         imageSrc: 'assets/pics/engine.png',
@@ -44,8 +51,8 @@ export class HomeComponent implements OnInit {
         githubUri: 'https://github.com/budde25/js-snake',
         uri: 'https://budde25.github.io/js-snake/',
         icons: []
-      }
-    ]
+      },
+    ];
    }
 
   ngOnInit() {
