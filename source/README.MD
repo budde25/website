@@ -1,6 +1,6 @@
 # Personal website
 
-This project uses Angular
+Ethan's personal website built using Angular
 
 ## Development server
 
