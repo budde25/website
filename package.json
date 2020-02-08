@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
-    "prod": "ng build --prod --base-href='/' && rm -rf docs/* && cp -r dist/ethan/* docs/.",
+    "prod": "ng build --prod --base-href='/' && rm -rf docs/* && cp -r dist/ethan/* docs/. && cp docs/index.html docs/404.html",
     "updatebuild": "ng build --prod --base-href=\"budde.dev\" && del /s /q docs && xcopy dist\\ethan docs /s /e /q && copy docs\\index.html docs\\404.html"
   },
   "private": true,
