@@ -1,24 +1,17 @@
-# Personal website
+# Personal Website
 
-Ethan's personal website built using Angular
+My website is a project to show off and allow people to interact my various projects and programs. It is created using Angular and is deployed using GitHub pages. It is programmed using typescript, html, and css.
 
-## Development server
+## Usage
 
-Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`yarn start` to start a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  
+`yarn prod` to create a production build.  
+`yarn upgrade` to update the dependecies.  
 
-## Code scaffolding
+# Build With
+* [Angular](https://angular.io/) - Web framwork.  
+* [Angular Material](https://material.angular.io/) - Material design componates.  
+* [yarn](https://yarnpkg.com/) - Package manager.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `yarn prod` to build the project. The build will then be copied to the the root directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
+## Author
+Ethan Budd
