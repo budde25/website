@@ -8,7 +8,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
     "prod": "ng build --prod --base-href='/' && rm -rf docs/* && cp -r dist/ethan/* docs/. && cp docs/index.html docs/404.html && cp CNAME docs/."
   },
   "private": true,
@@ -37,6 +36,7 @@
     "popper.js": "^1.16.1",
     "rxjs": "~6.5.3",
     "tslib": "^1.10.0",
+    "typescript": "^3.7.5",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -59,7 +59,6 @@
     "karma-jasmine-html-reporter": "^1.5.2",
     "protractor": "~5.4.0",
     "ts-node": "^8.6.2",
-    "tslint": "^6.0.0",
-    "typescript": "^3.7.5"
+    "tslint": "^6.0.0"
   }
 }
