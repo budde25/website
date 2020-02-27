@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes} from '@angular/router';
 import { JsSnakeComponent } from './projects/js-snake/js-snake.component';
-import { ProjectItemComponent } from './componate/project-item/project-item.component';
+import { ProjectItemComponent } from './component/project-item/project-item.component';
 import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.component';
 
 

@@ -38,7 +38,13 @@ export class AppComponent {
     iconRegistry.addSvgIcon(
         'angular',
         sanitizer.bypassSecurityTrustResourceUrl('assets/icons/angularjs-plain.svg'));
-    }
+    iconRegistry.addSvgIcon(
+        'link',
+        sanitizer.bypassSecurityTrustResourceUrl('assets/icons/link.svg'));
+    iconRegistry.addSvgIcon(
+        'apple',
+        sanitizer.bypassSecurityTrustResourceUrl('assets/icons/apple.svg'));
+  }
   title = 'Ethan Budd';
 
   github(): void {

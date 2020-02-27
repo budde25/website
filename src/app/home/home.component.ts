@@ -16,26 +16,24 @@ export class HomeComponent implements OnInit {
         title: 'Party DJ - Spotify Queuing app',
         imageSrc: 'assets/pics/partydj.png',
         githubUri: 'https://github.com/budde25/PartyDJ',
-        uri: 'https://play.google.com/store/apps/details?id=dev.budde.spotify_queue',
+        android: 'https://play.google.com/store/apps/details?id=dev.budde.spotify_queue',
+        ios: 'https://apps.apple.com/us/app/party-music-queue/id1497405326?ls=1',
         icons: []
       },
       {
         title: 'Java Game Engine',
         imageSrc: 'assets/pics/engine.png',
         githubUri: 'https://github.com/budde25/JavaGameEngine',
-        uri: '/home',
       },
       {
         title: 'Neural Numbers',
         imageSrc: 'assets/pics/numbers.png',
         githubUri: 'https://github.com/budde25/NeuralNumbers',
-        uri: '/home',
       },
       {
         title: 'Neural Network Library',
         imageSrc: 'assets/pics/nn.png',
         githubUri: 'https://github.com/budde25/NeuralNetworkLibrary',
-        uri: '/home',
         icons: ['java']
       },
       {
