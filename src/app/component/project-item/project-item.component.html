@@ -3,7 +3,7 @@
         <mat-card-header>
             <mat-card-title> {{ project.title }} </mat-card-title>
         </mat-card-header>
-        <img mat-card-image src='{{ project.imageSrc }}' class="image" (click)="link( project.uri )">
+        <img mat-card-image src='{{ project.imageSrc }}' class="image">
         <mat-card-actions>
             <span *ngIf="project.uri">
                 <button mat-icon-button (click)="link ( project.uri ) ">

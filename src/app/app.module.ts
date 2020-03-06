@@ -11,7 +11,6 @@ import { MaterialModule } from './material';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes} from '@angular/router';
-import { JsSnakeComponent } from './projects/js-snake/js-snake.component';
 import { ProjectItemComponent } from './component/project-item/project-item.component';
 import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.component';
 
@@ -21,7 +20,6 @@ import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.compo
     AppComponent,
     HomeComponent,
     AboutComponent,
-    JsSnakeComponent,
     ProjectItemComponent,
     PartyDJPrivacyComponent,
   ],
@@ -35,7 +33,6 @@ import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.compo
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'about', component: AboutComponent},
-      {path: 'projects/snake', component: JsSnakeComponent},
       {path: 'partydj/privacypolicy', component: PartyDJPrivacyComponent}
     ])
   ],
