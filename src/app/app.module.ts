@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes} from '@angular/router';
 import { ProjectItemComponent } from './component/project-item/project-item.component';
 import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.component';
+import { CompetionsComponent } from './competions/competions.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.compo
     AboutComponent,
     ProjectItemComponent,
     PartyDJPrivacyComponent,
+    CompetionsComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { PartyDJPrivacyComponent } from './party-djprivacy/party-djprivacy.compo
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'about', component: AboutComponent},
-      {path: 'partydj/privacypolicy', component: PartyDJPrivacyComponent}
+      {path: 'party-dj-privacy', component: PartyDJPrivacyComponent},
+      {path: 'competions', component: CompetionsComponent}
     ])
   ],
   providers: [],
