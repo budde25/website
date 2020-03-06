@@ -1,10 +1,12 @@
 mat-card {
-    flex-basis: 60%;
-    max-width: 600px;
+    flex-basis: fill;
+    max-width: 35rem;
+    min-width: 60%;
     margin-bottom: 16px;
-    margin-right: 40px;
-    margin-left: 40px;
-    align-content: left;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    align-content: center;
 }
 
 mat-card-title {
