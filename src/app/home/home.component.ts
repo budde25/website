@@ -37,6 +37,12 @@ export class HomeComponent implements OnInit {
         icons: ['java']
       },
       {
+        title: 'Game of life',
+        imageSrc: 'assets/pics/life.png',
+        githubUri: 'https://github.com/budde25/conways-game-of-life',
+        icons: []
+      },
+      {
         title: 'Smart Dots',
         imageSrc: 'assets/pics/smartDots.png',
         githubUri: 'https://budde25.github.io/smart-dots/',
