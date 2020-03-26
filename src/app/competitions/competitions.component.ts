@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Competition } from '../models/competition';
 
 @Component({
   selector: 'app-competitions',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitionsComponent implements OnInit {
 
-  constructor() { }
+  competitions: Competition[]
+
+  constructor() {
+    this.competitions = [
+
+    ]
+  }
 
   ngOnInit(): void {
   }

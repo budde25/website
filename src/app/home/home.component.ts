@@ -52,7 +52,7 @@ export class HomeComponent implements OnInit {
       {
         title: 'JS Snake',
         imageSrc: 'assets/pics/snake.png',
-        githubUri: 'https://github.com/budde25/js-snake',
+        githubUri: 'https://github.com/budde25/smart-dots',
         uri: 'https://budde25.github.io/js-snake/',
         icons: []
       },
