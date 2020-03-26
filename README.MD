@@ -11,7 +11,7 @@ My website is a project to show off and allow people to interact my various proj
 # Build With
 * [Angular](https://angular.io/) - Web framwork.  
 * [Angular Material](https://material.angular.io/) - Material design componates.  
-* [yarn](https://yarnpkg.com/) - Package manager.  
+* [Yarn](https://yarnpkg.com/) - Package manager.  
 
 ## Author
 Ethan Budd
