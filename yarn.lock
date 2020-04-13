@@ -995,10 +995,10 @@
     rxjs "6.5.4"
     webpack-sources "1.4.3"
 
-"@popperjs/core@^2.1.0":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.2.3.tgz#0ae22b5650ab0b8fe508047245b66e71fc59e983"
-  integrity sha512-68EQPzEZRrpFavFX40V2+80eqzQIhgza2AGTXW+i8laxSA4It+Y13rmZInrAYoIujp8YO7YJPbvgOesDZcIulQ==
+"@popperjs/core@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.3.0.tgz#10a7e22bfa63062463c57737f20b34adc296c1d0"
+  integrity sha512-H8NkxljZH9PElLoejII6SDDCHvYnk/aEC9D1e7Om8Sxlgi7n0TlnhuB37IAqgclc+Y2XG+I+QClUP2kxuCDiMg==
 
 "@schematics/angular@9.1.1":
   version "9.1.1"
