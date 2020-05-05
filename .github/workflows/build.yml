@@ -1,5 +1,10 @@
 name: Build
 
+defaults:
+  run:
+    shell: bash
+    working-directory: src/
+
 on:
   push:
     branches: [ master ]
@@ -12,6 +17,5 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 12
-    - run: cd src/
     - run: npm ci
     - run: npm prod
