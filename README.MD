@@ -10,7 +10,7 @@ My website is a project to show off and allow people to interact my various proj
 
 # Build With
 * [Angular](https://angular.io/) - Web framwork.  
-* [Angular Material](https://material.angular.io/) - Material design componates.  
+* [Angular Material](https://material.angular.io/) - Material design components.  
 * [Yarn](https://yarnpkg.com/) - Package manager.  
 
 ## Author
