@@ -7,7 +7,7 @@ My website is a project to show off and allow people to interact my various proj
 `yarn prod` to create a production build.  
 `yarn upgrade` to update the dependecies.  
 
-# Build With
+## Build With
 * [Angular](https://angular.io/)
 * [NodeJS](https://nodejs.org/en/)
 * [TypeScript](https://www.typescriptlang.org/)
