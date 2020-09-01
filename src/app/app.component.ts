@@ -44,6 +44,9 @@ export class AppComponent {
     iconRegistry.addSvgIcon(
         'apple',
         sanitizer.bypassSecurityTrustResourceUrl('assets/icons/apple.svg'));
+    iconRegistry.addSvgIcon(
+        'rust',
+        sanitizer.bypassSecurityTrustResourceUrl('assets/icons/rust.svg'));
   }
   title = 'Ethan Budd';
 

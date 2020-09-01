@@ -20,6 +20,11 @@
                     <mat-icon svgIcon="apple"></mat-icon>
                 </button>
             </span>
+            <span *ngIf="project.cratesio">
+                <button mat-icon-button (click)="link ( project.cratesio ) ">
+                    <mat-icon svgIcon="rust"></mat-icon>
+                </button>
+            </span>
             <button mat-icon-button (click)="link( project.githubUri )">
                 <mat-icon svgIcon="github-b"></mat-icon>
             </button>

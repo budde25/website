@@ -21,12 +21,21 @@ export class HomeComponent implements OnInit {
         icons: []
       },
       {
-        title: 'Java Game Engine',
-        imageSrc: 'assets/pics/engine.png',
-        githubUri: 'https://github.com/budde25/JavaGameEngine',
+        title: 'NXCloud - NextCloud Client CLI',
+        imageSrc: 'assets/pics/nxcloud.png',
+        githubUri: 'https://github.com/budde25/nextcloud-client-cli',
+        cratesio: 'https://crates.io/crates/nxcloud',
+        icons: []
       },
       {
-        title: 'Neural Numbers',
+        title: 'PortalU - Student Dashboard',
+        imageSrc: 'assets/pics/portalU.png',
+        githubUri: 'https://github.com/budde25/portalU',
+        uri: 'https://budde25.github.io/portalU/',
+        icons: []
+      },
+      {
+        title: 'Neural Numbers - Identify Handrawn Digits',
         imageSrc: 'assets/pics/numbers.png',
         githubUri: 'https://github.com/budde25/NeuralNumbers',
       },
@@ -37,17 +46,22 @@ export class HomeComponent implements OnInit {
         icons: ['java']
       },
       {
+        title: 'Smart Dots - Genertic Algorithmn',
+        imageSrc: 'assets/pics/smartDots.png',
+        githubUri: 'https://budde25.github.io/smart-dots/',
+        uri: 'https://budde25.github.io/smart-dots/',
+        icons: []
+      },
+      {
         title: 'Game of life',
         imageSrc: 'assets/pics/life.png',
         githubUri: 'https://github.com/budde25/conways-game-of-life',
         icons: []
       },
       {
-        title: 'Smart Dots',
-        imageSrc: 'assets/pics/smartDots.png',
-        githubUri: 'https://budde25.github.io/smart-dots/',
-        uri: 'https://budde25.github.io/smart-dots/',
-        icons: []
+        title: 'Java Game Engine',
+        imageSrc: 'assets/pics/engine.png',
+        githubUri: 'https://github.com/budde25/JavaGameEngine',
       },
       {
         title: 'JS Snake',

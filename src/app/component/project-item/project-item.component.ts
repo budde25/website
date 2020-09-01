@@ -18,5 +18,4 @@ export class ProjectItemComponent implements OnInit {
   link(link:string) {
     location.href = link;
   }
-
 }

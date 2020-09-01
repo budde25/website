@@ -6,4 +6,5 @@ export class Project {
     uri?:string;
     android?:string;
     ios?:string;
+    cratesio?:string;
 }
