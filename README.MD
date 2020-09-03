@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Website - [ebudd.io](https://ebudd.io)
 My website is a project to show off and allow people to interact my various projects and programs. It is created using Angular and is deployed using GitHub pages. It is programmed using typescript, html, and css.
 
 ## Usage
