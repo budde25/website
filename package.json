@@ -8,6 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "prod": "ng build --prod --base-href='/' && rm -rf docs/* && cp -r dist/ethan/* docs/. && cp docs/index.html docs/404.html && cp CNAME docs/."
   },
   "private": true,
@@ -29,6 +31,7 @@
     "bootstrap": "^4.5.0",
     "core-js": "^3.6.4",
     "dev-server": "^0.1.0",
+    "gh-pages": "^3.1.0",
     "jquery": "^3.4.1",
     "p5": "^1.0.0",
     "popper.js": "^1.16.1",
@@ -58,5 +61,6 @@
     "protractor": "~7.0.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.9.7"
-  }
+  },
+  "homepage": "http://sabesansathananthan.github.io/website"
 }
