@@ -21,6 +21,13 @@ export class HomeComponent implements OnInit {
         icons: []
       },
       {
+        title: 'KeySync - SSH Key Sync CLI & Service',
+        imageSrc: 'assets/pics/keysync.png',
+        githubUri: 'https://github.com/budde25/ssh-key-sync',
+        cratesio: 'https://crates.io/crates/keysync',
+        icons: []
+      },
+      {
         title: 'NXCloud - NextCloud Client CLI',
         imageSrc: 'assets/pics/nxcloud.png',
         githubUri: 'https://github.com/budde25/nextcloud-client-cli',
