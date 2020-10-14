@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
         title: 'PortalU - Student Dashboard',
         imageSrc: 'assets/pics/portalU.png',
         githubUri: 'https://github.com/budde25/portalU',
-        uri: 'https://budde25.github.io/portalU/',
+        uri: 'https://budde25.github.io/apps',
         icons: []
       },
       {

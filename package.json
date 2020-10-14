@@ -11,7 +11,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "prod": "ng build --prod --base-href='/' && rm -rf docs/* && cp -r dist/ethan/* docs/. && cp docs/index.html docs/404.html && cp CNAME docs/.",
-    "ghp": "ng build --prod --base-href='/' && ngh --dir=dist/ethan"
+    "ghp": "ng build --prod --base-href='/' && ngh --dir=dist/ethan --cname=ebudd.io"
   },
   "private": true,
   "dependencies": {
