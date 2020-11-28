@@ -32,12 +32,12 @@ import { CompetitionsComponent } from './competitions/competitions.component';
     MaterialModule,
     HttpClientModule,
     RouterModule.forRoot([
-      {path: '', redirectTo: '/home', pathMatch: 'full'},
-      {path: 'home', component: HomeComponent},
-      {path: 'about', component: AboutComponent},
-      {path: 'party-dj-privacy', component: PartyDJPrivacyComponent},
-      {path: 'competitions', component: CompetitionsComponent}
-    ])
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'party-dj-privacy', component: PartyDJPrivacyComponent },
+    { path: 'competitions', component: CompetitionsComponent }
+], { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]
