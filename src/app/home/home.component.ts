@@ -23,14 +23,14 @@ export class HomeComponent implements OnInit {
       {
         title: 'KeySync - SSH Key Sync CLI & Service',
         imageSrc: 'assets/pics/keysync.png',
-        githubUri: 'https://github.com/budde25/ssh-key-sync',
+        githubUri: 'https://github.com/budde25/keysync',
         cratesio: 'https://crates.io/crates/keysync',
         icons: []
       },
       {
         title: 'NXCloud - NextCloud Client CLI',
         imageSrc: 'assets/pics/nxcloud.png',
-        githubUri: 'https://github.com/budde25/nextcloud-client-cli',
+        githubUri: 'https://github.com/budde25/nxcloud',
         cratesio: 'https://crates.io/crates/nxcloud',
         icons: []
       },
@@ -53,7 +53,7 @@ export class HomeComponent implements OnInit {
         icons: ['java']
       },
       {
-        title: 'Smart Dots - Genertic Algorithmn',
+        title: 'Smart Dots - Genetic Algorithm',
         imageSrc: 'assets/pics/smartDots.png',
         githubUri: 'https://budde25.github.io/smart-dots/',
         uri: 'https://budde25.github.io/smart-dots/',
@@ -78,7 +78,7 @@ export class HomeComponent implements OnInit {
         icons: []
       },
     ];
-   }
+  }
 
   ngOnInit() {
   }
